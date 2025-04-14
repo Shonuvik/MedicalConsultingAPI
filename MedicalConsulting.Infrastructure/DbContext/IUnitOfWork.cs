@@ -1,6 +1,11 @@
-﻿namespace MedicalConsulting.Infrastructure.DbContext
+﻿using System.Data;
+
+namespace MedicalConsulting.Infrastructure.DbContext
 {
-    public interface IUnitOfWork
+    public interface IUnitOfWork : IDisposable
 	{
+		public IDbConnection Connection { get; }
+
+		public IDbTransaction Transaction { get; }
 	}
 }

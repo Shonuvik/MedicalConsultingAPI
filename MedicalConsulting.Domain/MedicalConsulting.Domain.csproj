@@ -10,10 +10,14 @@
     <None Remove="Interfaces\" />
     <None Remove="Entities\" />
     <None Remove="ValueObjects\" />
+    <None Remove="Enums\" />
+    <None Remove="Dtos\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Interfaces\" />
     <Folder Include="Entities\" />
     <Folder Include="ValueObjects\" />
+    <Folder Include="Enums\" />
+    <Folder Include="Dtos\" />
   </ItemGroup>
 </Project>

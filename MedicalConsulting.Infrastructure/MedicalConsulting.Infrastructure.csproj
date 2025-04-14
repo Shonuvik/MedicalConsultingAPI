@@ -15,7 +15,10 @@
     <Folder Include="DbContext\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MedicalConsulting.Domain\MedicalConsulting.Domain.csproj" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.1" />
+    <PackageReference Include="Dapper" Version="2.1.66" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\MedicalConsulting.Application\MedicalConsulting.Application.csproj" />
   </ItemGroup>
 </Project>
